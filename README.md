@@ -36,7 +36,7 @@ Global Installation via Git Link
 You can install the package directly from a Git repository (e.g., GitHub) using its URL. This allows you to install it globally without cloning the repository first.
 
 
-pip install git+https://github.com/reproachuwu/chatgpt-api-bypass.git
+pip install git+https://github.com/soberized/chatgpt-api-bypass.git
 
 This command will fetch the package directly from the specified Git repository and install it into your Python environment, making it available system-wide (or within your active virtual environment).
 

@@ -12,7 +12,7 @@ setup(
     description='A Python package to use chatgpt like an API without an API key.',
     long_description=open('README.md').read() if 'README.md' else '',
     long_description_content_type='text/markdown' if 'README.md' else 'text/plain',
-    url='https://github.com/reproachuwu/ChatGPT-API-Bypass',
+    url='https://github.com/soberized/ChatGPT-API-Bypass',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License', 
