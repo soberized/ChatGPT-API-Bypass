@@ -52,7 +52,7 @@ pip install git+https://github.com/soberized/chatgpt-api-bypass.git
 ```py
 print("--- Running Basic Prompt Example ---")
 prompt_basic = "Tell me a short, inspiring quote." 
-response_basic = launch_chatgpt(prompt_basic)
+response_basic = chatgpt(prompt_basic)
 
 if response_basic:
     print("\nChatGPT's Response (Basic):")
@@ -64,7 +64,7 @@ if response_basic:
 ```py
 print("--- Running Basic Prompt Example ---")
 prompt_basic = "What is the capital of Australia and when was it founded? Please search the web for this." 
-response_basic = launch_chatgpt(prompt_search, search=True)
+response_basic = chatgpt(prompt_search, search=True)
 
 if response_basic:
     print("\nChatGPT's Response (Basic):")
